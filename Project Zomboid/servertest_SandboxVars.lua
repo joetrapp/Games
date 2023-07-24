@@ -147,7 +147,7 @@ SandboxVars = {
     -- 4 = Rare
     -- 5 = Normal
     -- 6 = Common
-    AmmoLoot = 4,
+    AmmoLoot = 5,
     -- Default=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
@@ -185,7 +185,7 @@ SandboxVars = {
     -- Number of days until 100% growth. -1 means no growth. Zero means use the Erosion Speed option. Maximum 36,500 (100 years). Minimum=-1 Maximum=36500 Default=0
     ErosionDays = 0,
     -- Modifies the base XP gain from actions by this number. Minimum=0.00 Maximum=1000.00 Default=1.00
-    XpMultiplier = 1.2,
+    XpMultiplier = 1.35,
     -- Determines if the XP multiplier affects passively levelled skills eg. Fitness and Strength.
     XpMultiplierAffectsPassive = false,
     -- Use this to multiply or reduce engine general loudness. Minimum=0.00 Maximum=100.00 Default=1.00
@@ -422,7 +422,7 @@ SandboxVars = {
     -- Governs the chances of finding vehicles with gas in the tank. Default=Low
     -- 1 = Low
     -- 2 = Normal
-    ChanceHasGas = 1,
+    ChanceHasGas = 2,
     -- Governs how full gas tanks will be in discovered cars. Default=Low
     -- 1 = Very Low
     -- 2 = Low
@@ -454,7 +454,7 @@ SandboxVars = {
     -- 2 = Low
     -- 3 = Normal
     -- 4 = High
-    CarGeneralCondition = 2,
+    CarGeneralCondition = 3,
     -- Governs the amount of damage dealt to vehicles that crash. Default=Normal
     -- 1 = Very Low
     -- 2 = Low
@@ -479,7 +479,7 @@ SandboxVars = {
     -- Enable or disable player getting damage from being in a car accident.
     PlayerDamageFromCrash = true,
     -- How many in-game hours before a wailing siren shuts off. Minimum=0.00 Maximum=168.00 Default=0.00
-    SirenShutoffHours = 0.0,
+    SirenShutoffHours = 3.0,
     --  Governs whether player can discover a car that has been maintained and cared for after the infection struck. Default=Low
     -- 1 = None
     -- 2 = Low
@@ -629,5 +629,40 @@ SandboxVars = {
         FogDarkness = 1.0,
         -- Minimum=0.20 Maximum=100.00 Default=1.00
         ReadSpeed = 1.0,
+    },
+    CommonSense = {
+        PryingMechanic = true,
+        PartsHighlighter = true,
+        ColorFilter = false,
+    },
+    SkillRecoveryJournal = {
+        -- Minimum=1 Maximum=100 Default=100
+        RecoveryPercentage = 66,
+        -- Minimum=0.00 Maximum=1000.00 Default=1.00
+        TranscribeSpeed = 1.0,
+        -- Minimum=0.00 Maximum=1000.00 Default=1.00
+        ReadTimeSpeed = 1.0,
+        RecoverProfessionAndTraitsBonuses = true,
+        TranscribeTVXP = true,
+        RecoverPassiveSkills = false,
+        RecoverCombatSkills = true,
+        RecoverFirearmSkills = true,
+        RecoverCraftingSkills = true,
+        RecoverSurvivalistSkills = true,
+        RecoverAgilitySkills = true,
+        RecoverRecipes = true,
+        RecoveryJournalUsed = false,
+        Craftable = true,
+    },
+    Bicycles = {
+        Exhaustion = true,
+        -- Minimum=0.00 Maximum=1.00 Default=0.39
+        ExhaustionDrain = 0.39,
+        FitnessExperience = true,
+        -- Minimum=0 Maximum=500 Default=15
+        FitnessExpGain = 15,
+        Warmth = true,
+        -- Minimum=0.00 Maximum=1.00 Default=0.10
+        WarmthGain = 0.1,
     },
 }
