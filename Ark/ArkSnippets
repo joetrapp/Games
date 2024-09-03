@@ -1,0 +1,27 @@
+# Insta FPS
+r.Fog 0 | r.VolumetricCloud 0 | r.Nanite.MaxPixelsPerEdge 4 | foliage.MaxTrianglesToRender 500000
+
+# Save world
+
+# Fly, Walk
+
+# Kill all wild X dinos
+
+# Tribe and User IDs
+START Listing Tribe Members For: PEN-15 Tribe, ID: 1120916425
+PlayerName: Suph, PlayerID: 644249357, SteamID: 00023dfe55124a7dbb43ff5a2497a094
+PlayerName: Ezra, PlayerID: 676643262, SteamID: 0002a062b8e549958e6601b4190f3aac
+PlayerName: Jerry, PlayerID: 664690846, SteamID: 000258c6edfc4bc99bcc792124310532
+PlayerName: Blake, PlayerID: 183115891, SteamID: 000236f0002040c5a1f738bfe7e1afd6
+PlayerName: Court, PlayerID: 756285991, SteamID: 000221f01d124ce193ac11675e10af42
+PlayerName: Kale, PlayerID: 939887012, SteamID: 00022547b1784e22976e59830194a692
+PlayerName: Dalee, PlayerID: 736720352, SteamID: 00020791343e449da3e4f72ab4779e4b
+PlayerName: Stefaroo, PlayerID: 635942600, SteamID: 000285b8f9ee4ef693dd5353d75f6923
+PlayerName: Kyle, PlayerID: 836702676, SteamID: 0002e58956fc4603aa1c698607b34189
+
+# Set dino imprint to certain player
+cheat SetImprintedPlayer "Kyle" 836702676
+
+# Zino, Rex colorings
+admincheat settargetdinocolor 0 1 | admincheat settargetdinocolor 2 79 | admincheat settargetdinocolor 4 79 | admincheat settargetdinocolor 5 79
+admincheat settargetdinocolor 0 79 | admincheat settargetdinocolor 1 1 | admincheat settargetdinocolor 2 79 | admincheat settargetdinocolor 4 79 | admincheat settargetdinocolor 5 79
