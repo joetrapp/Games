@@ -2,10 +2,14 @@
 r.Fog 0 | r.VolumetricCloud 0 | r.Nanite.MaxPixelsPerEdge 4 | foliage.MaxTrianglesToRender 500000
 
 # Save world
+admincheat SaveWorld
 
 # Fly, Walk
+admincheat Fly
+adminchear Walk
 
 # Kill all wild X dinos
+admincheat DestroyWildDinos
 
 # Tribe and User IDs
 START Listing Tribe Members For: PEN-15 Tribe, ID: 1120916425
