@@ -26,6 +26,9 @@ PlayerName: Kyle, PlayerID: 836702676, SteamID: 0002e58956fc4603aa1c698607b34189
 # Set dino imprint to certain player
 cheat SetImprintedPlayer "Kyle" 836702676
 
+# Give TekGram
+https://arkids.net/command/givetekengramsto
+
 # Zino, Rex colorings
 admincheat settargetdinocolor 0 1 | admincheat settargetdinocolor 2 79 | admincheat settargetdinocolor 4 79 | admincheat settargetdinocolor 5 79
 admincheat settargetdinocolor 0 79 | admincheat settargetdinocolor 1 1 | admincheat settargetdinocolor 2 79 | admincheat settargetdinocolor 4 79 | admincheat settargetdinocolor 5 79
