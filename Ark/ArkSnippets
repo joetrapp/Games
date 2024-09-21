@@ -25,6 +25,8 @@ PlayerName: Kyle, PlayerID: 836702676, SteamID: 0002e58956fc4603aa1c698607b34189
 
 # Set dino imprint to certain player
 cheat SetImprintedPlayer "Kyle" 836702676
+cheat SetImprintedPlayer "Ezra" 676643262
+cheat SetImprintedPlayer "Dalee" 736720352
 
 # Give TekGram
 https://arkids.net/command/givetekengramsto
