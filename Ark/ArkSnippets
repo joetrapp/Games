@@ -24,9 +24,9 @@ PlayerName: Stefaroo, PlayerID: 635942600, SteamID: 000285b8f9ee4ef693dd5353d75f
 PlayerName: Kyle, PlayerID: 836702676, SteamID: 0002e58956fc4603aa1c698607b34189
 
 # Set dino imprint to certain player
-cheat SetImprintedPlayer "Kyle" 836702676
-cheat SetImprintedPlayer "Ezra" 676643262
-cheat SetImprintedPlayer "Dalee" 736720352
+admincheat SetImprintedPlayer "Kyle" 836702676
+admincheat SetImprintedPlayer "Ezra" 676643262
+admincheat SetImprintedPlayer "Dalee" 736720352
 
 # Give TekGram
 https://arkids.net/command/givetekengramsto
@@ -37,3 +37,15 @@ admincheat settargetdinocolor 0 79 | admincheat settargetdinocolor 1 1 | adminch
 
 # Rhynio spawn all cravings
 cheat gfi SubstrateAbsorbent 5 0 0 | cheat gfi SnailPaste 5 0 0 | cheat gfi AmmoniteBlood 5 0 0 | cheat gfi BlackPearl 5 0 0 | cheat giveitem "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Hesperonis_Golden.PrimalItemConsumable_Egg_Hesperonis_Golden'" 5 0 0 | cheat gfi PrimalItemConsumable_Egg_Carcha 5 0 0 | cheat gfi Egg_Gigant 5 0 0 | cheat giveitem "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Quetz.PrimalItemConsumable_Egg_Quetz'" 5 0 0 | cheat gfi Element 5 0 0 | cheat giveitemnum 161 5 0 0 | cheat gfi Honey 5 0 0 | cheat gfi kibble_base_large 5 0 0 | cheat gfi Kibble_Base_XLarge 5 0 0 | cheat gfi Kibble_Base_Special 5 0 0 | cheat giveitemnum 250 5 0 0 | cheat giveitemnum 225 5 0 0 | cheat giveitemnum 223 5 0 0 | cheat giveitemnum 227 5 0 0 | cheat giveitemnum 226 5 0 0 | cheat giveitemnum 224 5 0 0 | cheat giveitemnum 251 5 0 0 | cheat gfi SweetVeggieCake 5 0 0 | cheat gfi Horn 5 0 0
+
+# Give All Spider Engrams
+cheat GiveTekEngramsTo $ID PrimalItemStructure_LargeWall_Tek | cheat GiveTekEngramsTo $ID PrimalItemArmor_RexSaddle_Tek | cheat GiveTekEngramsTo $ID PrimalItemStructure_TekGate | cheat GiveTekEngramsTo $ID PrimalItemStructure_TekGateframe | cheat GiveTekEngramsTo $ID PrimalItemStructure_TekDoor | cheat GiveTekEngramsTo $ID PrimalItemArmor_TekGloves | cheat GiveTekEngramsTo $ID PrimalItemStructure_TekGenerator | cheat GiveTekEngramsTo $ID PrimalItem_TekGrenade | cheat GiveTekEngramsTo $ID PrimalItemStructure_TekReplicator | cheat GiveTekEngramsTo $ID PrimalItem_TekRifle | cheat GiveTekEngramsTo $ID PrimalItemStructure_TekTrough
+
+# Give All Monkey Engrams
+cheat GiveTekEngramsTo $ID PrimalItemArmor_MosaSaddle_Tek | cheat GiveTekEngramsTo $ID PrimalItemStructure_TekWall_Sloped_Left | cheat GiveTekEngramsTo $ID PrimalItemArmor_TekBoots | cheat GiveTekEngramsTo $ID PrimalItemStructure_TekCatwalk | cheat GiveTekEngramsTo $ID PrimalItemStructure_TekCeiling | cheat GiveTekEngramsTo $ID PrimalItemStructure_Tekfencefoundation | cheat GiveTekEngramsTo $ID PrimalItemStructure_TekFloor | cheat GiveTekEngramsTo $ID PrimalItemArmor_TekHelmet | cheat GiveTekEngramsTo $ID PrimalItemStructure_TekLadder | cheat GiveTekEngramsTo $ID PrimalItemStructure_TekPillar | cheat GiveTekEngramsTo $ID PrimalItemStructure_Tekrailing | cheat GiveTekEngramsTo $ID PrimalItemStructure_TekReplicator | cheat GiveTekEngramsTo $ID PrimalItemStructure_TriCeiling_Tek | cheat GiveTekEngramsTo $ID PrimalItemStructure_TriFoundation_Tek | cheat GiveTekEngramsTo $ID PrimalItemStructure_TriRoof_Tek | cheat GiveTekEngramsTo $ID PrimalItemStructure_TurretTek | cheat GiveTekEngramsTo $ID PrimalItemStructure_TekWall
+
+# Give All Dragon Engrams
+cheat GiveTekEngramsTo $ID PrimalItemStructure_TekGate_Large | cheat GiveTekEngramsTo $ID PrimalItemStructure_TekGateframe_Large | cheat GiveTekEngramsTo $ID PrimalItemStructure_TekCloningChamber | cheat GiveTekEngramsTo $ID PrimalItemArmor_MegalodonSaddle_Tek | cheat GiveTekEngramsTo $ID PrimalItemArmor_Tapejara_Tek | cheat GiveTekEngramsTo $ID PrimalItemArmor_TekShirt | cheat GiveTekEngramsTo $ID PrimalItemStructure_DedicatedStorage | cheat GiveTekEngramsTo $ID PrimalItemStructure_DoubleDoor_Tek | cheat GiveTekEngramsTo $ID PrimalItemStructure_DoubleDoorframe_Tek | cheat GiveTekEngramsTo $ID PrimalItemStructure_FenceSupport_Tek | cheat GiveTekEngramsTo $ID PrimalItemStructure_TekShield | cheat GiveTekEngramsTo $ID PrimalItemArmor_TekPants | cheat GiveTekEngramsTo $ID PrimalItemStructure_TekReplicator | cheat GiveTekEngramsTo $ID PrimalItemStructure_Ramp_Tek | cheat GiveTekEngramsTo $ID PrimalItemStructure_TekTeleporter | cheat GiveTekEngramsTo $ID PrimalItemStructure_TekTransmitter | cheat GiveTekEngramsTo $ID PrimalItemStructure_UnderwaterBase | cheat GiveTekEngramsTo $ID PrimalItemStructure_UnderwaterBase_Moonpool
+
+# Give All Overseer Engrams
+cheat GiveTekEngramsTo $ID PrimalItemVHBuggy.PrimalItemVHBuggy | cheat GiveTekEngramsTo $ID PrimalItem_WeaponElectronicBinoculars
