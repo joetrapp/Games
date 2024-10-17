@@ -12,21 +12,20 @@ adminchear Walk
 admincheat DestroyWildDinos
 
 # Tribe and User IDs
-START Listing Tribe Members For: PEN-15 Tribe, ID: 1120916425
 PlayerName: Suph, PlayerID: 644249357, SteamID: 00023dfe55124a7dbb43ff5a2497a094
 PlayerName: Ezra, PlayerID: 676643262, SteamID: 0002a062b8e549958e6601b4190f3aac
-PlayerName: Jerry, PlayerID: 664690846, SteamID: 000258c6edfc4bc99bcc792124310532
-PlayerName: Blake, PlayerID: 183115891, SteamID: 000236f0002040c5a1f738bfe7e1afd6
-PlayerName: Court, PlayerID: 756285991, SteamID: 000221f01d124ce193ac11675e10af42
-PlayerName: Kale, PlayerID: 939887012, SteamID: 00022547b1784e22976e59830194a692
-PlayerName: Dalee, PlayerID: 736720352, SteamID: 00020791343e449da3e4f72ab4779e4b
-PlayerName: Stefaroo, PlayerID: 635942600, SteamID: 000285b8f9ee4ef693dd5353d75f6923
+PlayerName: Dalee, PlayerID: 258806161, SteamID: 00020791343e449da3e4f72ab4779e4b
 PlayerName: Kyle, PlayerID: 836702676, SteamID: 0002e58956fc4603aa1c698607b34189
 
 # Set dino imprint to certain player
 admincheat SetImprintedPlayer "Kyle" 836702676
 admincheat SetImprintedPlayer "Ezra" 676643262
-admincheat SetImprintedPlayer "Dalee" 736720352
+admincheat SetImprintedPlayer "Dalee" 258806161
+admincheat SetImprintedPlayer "Suph" 644249357
+
+# Actually set imprint
+cheat SetImprintedPlayer AnyName 0
+cheat TransferImprints 0 123456789
 
 # Give TekGram
 https://arkids.net/command/givetekengramsto
@@ -48,4 +47,7 @@ cheat GiveTekEngramsTo $ID PrimalItemArmor_MosaSaddle_Tek | cheat GiveTekEngrams
 cheat GiveTekEngramsTo $ID PrimalItemStructure_TekGate_Large | cheat GiveTekEngramsTo $ID PrimalItemStructure_TekGateframe_Large | cheat GiveTekEngramsTo $ID PrimalItemStructure_TekCloningChamber | cheat GiveTekEngramsTo $ID PrimalItemArmor_MegalodonSaddle_Tek | cheat GiveTekEngramsTo $ID PrimalItemArmor_Tapejara_Tek | cheat GiveTekEngramsTo $ID PrimalItemArmor_TekShirt | cheat GiveTekEngramsTo $ID PrimalItemStructure_DedicatedStorage | cheat GiveTekEngramsTo $ID PrimalItemStructure_DoubleDoor_Tek | cheat GiveTekEngramsTo $ID PrimalItemStructure_DoubleDoorframe_Tek | cheat GiveTekEngramsTo $ID PrimalItemStructure_FenceSupport_Tek | cheat GiveTekEngramsTo $ID PrimalItemStructure_TekShield | cheat GiveTekEngramsTo $ID PrimalItemArmor_TekPants | cheat GiveTekEngramsTo $ID PrimalItemStructure_TekReplicator | cheat GiveTekEngramsTo $ID PrimalItemStructure_Ramp_Tek | cheat GiveTekEngramsTo $ID PrimalItemStructure_TekTeleporter | cheat GiveTekEngramsTo $ID PrimalItemStructure_TekTransmitter | cheat GiveTekEngramsTo $ID PrimalItemStructure_UnderwaterBase | cheat GiveTekEngramsTo $ID PrimalItemStructure_UnderwaterBase_Moonpool
 
 # Give All Overseer Engrams
-cheat GiveTekEngramsTo $ID PrimalItemVHBuggy.PrimalItemVHBuggy | cheat GiveTekEngramsTo $ID PrimalItem_WeaponElectronicBinoculars
+cheat GiveTekEngramsTo $ID PrimalItem_WeaponElectronicBinoculars
+
+# Give All Manticore Engrams (SE)
+cheat GiveTekEngramsTo $ID PrimalItemStructure_TekShield
