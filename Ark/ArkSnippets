@@ -50,4 +50,7 @@ cheat GiveTekEngramsTo $ID PrimalItemStructure_TekGate_Large | cheat GiveTekEngr
 cheat GiveTekEngramsTo $ID PrimalItem_WeaponElectronicBinoculars
 
 # Give All Manticore Engrams (SE)
-cheat GiveTekEngramsTo $ID PrimalItemStructure_TekShield
+cheat GiveTekEngramsTo $ID PrimalItemStructure_TekShield | cheat GiveTekEngramsTo $ID PrimalItemArmor_ShieldTek
+
+# Give All Rockwell Engrames (Ab)
+cheat GiveTekEngramsTo $ID PrimalItemArmor_RockDrakeSaddle_Tek | cheat GiveTekEngramsTo $ID PrimalItemStructure_Bed_Tek | cheat GiveTekEngramsTo $ID PrimalItem_TekSniper
