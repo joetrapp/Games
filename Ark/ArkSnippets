@@ -25,7 +25,7 @@ admincheat SetImprintedPlayer "Suph" 644249357
 
 # Actually set imprint
 cheat SetImprintedPlayer AnyName 0
-cheat TransferImprints 0 123456789
+cheat TransferImprints 0 644249357
 
 # Give TekGram
 https://arkids.net/command/givetekengramsto
@@ -33,7 +33,7 @@ https://arkids.net/command/givetekengramsto
 # Zino, Rex colorings
 admincheat settargetdinocolor 0 1 | admincheat settargetdinocolor 2 79 | admincheat settargetdinocolor 4 79 | admincheat settargetdinocolor 5 79
 admincheat settargetdinocolor 0 79 | admincheat settargetdinocolor 1 1 | admincheat settargetdinocolor 2 79 | admincheat settargetdinocolor 4 79 | admincheat settargetdinocolor 5 79
-
+admincheat settargetdinocolor 0 31 | admincheat settargetdinocolor 1 51 | admincheat settargetdinocolor 2 8 | admincheat settargetdinocolor 3 36 | admincheat settargetdinocolor 4 80 | admincheat settargetdinocolor 5 64
 # Rhynio spawn all cravings
 cheat gfi SubstrateAbsorbent 5 0 0 | cheat gfi SnailPaste 5 0 0 | cheat gfi AmmoniteBlood 5 0 0 | cheat gfi BlackPearl 5 0 0 | cheat giveitem "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Hesperonis_Golden.PrimalItemConsumable_Egg_Hesperonis_Golden'" 5 0 0 | cheat gfi PrimalItemConsumable_Egg_Carcha 5 0 0 | cheat gfi Egg_Gigant 5 0 0 | cheat giveitem "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Quetz.PrimalItemConsumable_Egg_Quetz'" 5 0 0 | cheat gfi Element 5 0 0 | cheat giveitemnum 161 5 0 0 | cheat gfi Honey 5 0 0 | cheat gfi kibble_base_large 5 0 0 | cheat gfi Kibble_Base_XLarge 5 0 0 | cheat gfi Kibble_Base_Special 5 0 0 | cheat giveitemnum 250 5 0 0 | cheat giveitemnum 225 5 0 0 | cheat giveitemnum 223 5 0 0 | cheat giveitemnum 227 5 0 0 | cheat giveitemnum 226 5 0 0 | cheat giveitemnum 224 5 0 0 | cheat giveitemnum 251 5 0 0 | cheat gfi SweetVeggieCake 5 0 0 | cheat gfi Horn 5 0 0
 
