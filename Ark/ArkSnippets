@@ -14,18 +14,21 @@ admincheat DestroyWildDinos
 # Tribe and User IDs
 PlayerName: Suph, PlayerID: 644249357, SteamID: 00023dfe55124a7dbb43ff5a2497a094
 PlayerName: Ezra, PlayerID: 676643262, SteamID: 0002a062b8e549958e6601b4190f3aac
-PlayerName: Dalee, PlayerID: 258806161, SteamID: 00020791343e449da3e4f72ab4779e4b
+PlayerName: Dalee, PlayerID: 829592907, SteamID: 00020791343e449da3e4f72ab4779e4b
 PlayerName: Kyle, PlayerID: 836702676, SteamID: 0002e58956fc4603aa1c698607b34189
 
 # Set dino imprint to certain player
 admincheat SetImprintedPlayer "Kyle" 836702676
 admincheat SetImprintedPlayer "Ezra" 676643262
-admincheat SetImprintedPlayer "Dalee" 258806161
+admincheat SetImprintedPlayer "Dalee" 829592907
 admincheat SetImprintedPlayer "Suph" 644249357
 
 # Actually set imprint
 cheat SetImprintedPlayer AnyName 0
 cheat TransferImprints 0 644249357
+
+# Give XP to player, don't share with tribe
+cheat GiveExpToPlayer 129475024 10000 0 1
 
 # Give TekGram
 https://arkids.net/command/givetekengramsto
