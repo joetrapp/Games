@@ -30,6 +30,11 @@ cheat TransferImprints 0 644249357
 # Give XP to player, don't share with tribe
 cheat GiveExpToPlayer 129475024 10000 0 1
 
+# Give me trait (must have trait gun in inventory)
+cheat scriptcommand givetrait traitname[num]
+cheat scriptcommand givetrait vampiric[0] #Vampiric level 1
+cheat scriptcommand givetrait inheritmeleemutable[2] #Mutable melee lvl 3
+
 # Give TekGram
 https://arkids.net/command/givetekengramsto
 
